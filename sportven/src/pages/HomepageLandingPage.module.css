@@ -32,25 +32,6 @@
   /* margin-right: 200px; */
 }
 
-.navBarToggleResponsive {
-  position: absolute;
-  right: 2px;
-  top: 39px;
-  height: 360px;
-  width: 50%;
-}
-
-.navBarToggleResponsive ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  display: flex;
-  flex-direction: column;
-  background-color: #000000;
-}
-
 .homepageParent {
   display: flex;
   flex-direction: row;
@@ -91,6 +72,9 @@
   cursor: pointer;
 }
 
+.navBarToggleResponsive ul {
+  display: none;
+}
 @media (max-width: 1080px) {
   .navMenu {
     flex-wrap: wrap;
@@ -124,6 +108,25 @@
   }
   .SearchContainer .button6 {
     margin-left: 0px;
+  }
+
+  .navBarToggleResponsive {
+    position: absolute;
+    right: 2px;
+    top: 39px;
+    height: 360px;
+    width: 50%;
+  }
+
+  .navBarToggleResponsive ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
   }
 }
 .container {
