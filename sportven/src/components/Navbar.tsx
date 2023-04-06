@@ -59,7 +59,7 @@ export const Navbar: FunctionComponent = () => {
                 Login
               </a>
             </li>
-            <li className={styles.btnLogin}>
+            <li>
               <a href="" className={styles.signUp}>
                 Sign Up
               </a>
