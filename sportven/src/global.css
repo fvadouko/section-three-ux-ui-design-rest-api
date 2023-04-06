@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;800;900&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-lato: Lato;
+
+  /* font sizes */
+  --font-size-base: 1rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-13xl: 2rem;
+  --font-size-lg: 1.13rem;
+
+  /* Colors */
+  --text-secondary: #8b8d84;
+  --color-gray-100: #212226;
+  --text-onbrand: #1a1a1a;
+  --bg-primary: #0f1219;
+  --text-primary: #fff;
+  --additional-primary: #434449;
+  --main-accent: #d0fd3e;
+  --main-tertiary: #417b5a;
+  --main-secondary: #ff9f1c;
+
+  /* Gaps */
+  --gap-5xl: 1.5rem;
+  --gap-7xs: 0.38rem;
+  --gap-9xs: 0.25rem;
+  --gap-base: 1rem;
+  --gap-2xs: 0.69rem;
+  --gap-3xs: 0.63rem;
+  --gap-13xl: 2rem;
+
+  /* Paddings */
+  --padding-xs: 0.75rem;
+  --padding-base: 1rem;
+  --padding-81xl: 6.25rem;
+  --padding-31xl: 3.13rem;
+  --padding-5xl: 1.5rem;
+  --padding-5xs: 0.5rem;
+  --padding-3xs: 0.63rem;
+
+  /* border radiuses */
+  --br-base: 16px;
+  --br-5xs: 8px;
+  --br-8xs: 5px;
+}
